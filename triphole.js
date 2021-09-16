@@ -1147,7 +1147,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         canvas.style.background = style
         window.setInterval(function () {
             main()
-        }, 17)
+        }, 60)
         document.addEventListener('keydown', (event) => {
             keysPressed[event.key] = true;
         });
@@ -1319,7 +1319,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 let pendulums = []
 
-let colors = ['red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff']
+let colors = ['red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff', 'red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff', 'red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff', 'red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff', 'red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff', 'red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff', 'red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff', 'red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff', 'red','crimson','orange','#FFAA00','Yellow','#AAFF00','#00FF00','#00FFAA','#00FFFF','#00AAFF','#0000ff','#AA00ff','#FF00ff']
 
 for(let t =0;t<colors.length;t++){
     let nads = new NewPendulum()
